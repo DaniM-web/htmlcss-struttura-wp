@@ -7,13 +7,33 @@
 body{
   background-color: brown;
 }
-
+main{
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 header{
 /* debug start */
 height: 300px;
 /* debug end */
-width: 40%;
+width: 80%;
 margin: 0 auto;
+
+}
+footer{
+  /* debug start */
+  background-color: black;
+  height: 200px;
+  /* debug end */
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .img-head {
   /* debug start */
@@ -26,4 +46,57 @@ nav{
   /* debug start */
   background-color: grey;
   height: 80px;
+  /* debug end */
+  /* position: relative; */
+}
+
+/* ul{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -40%);
+}
+
+li{
+  display: inline-block;
+} */
+
+.l-box{
+  /* debug start */
+  background-color: yellow;
+  height: 300px;
+  /* debug end */
+  width: 25%;
+  float: left;
+
+}
+#c-block{
+  /* debug start */
+background-color: blue;
+height: 250px;
+/* debug end */
+width: 30%;
+float: left;
+margin: 0 10%;
+}
+
+.r-box{
+  width: 25%;
+  float: left;
+}
+
+.r1{
+  background-color: yellow;
+  height:300px;
+  margin-bottom: 20px;
+}
+.r2{
+  background-color: yellow;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.r3{
+  background-color: yellow;
+  height: 300px;
+  margin-bottom: 20px;
 }
