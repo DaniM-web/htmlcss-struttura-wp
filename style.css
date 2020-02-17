@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: brown;
+}
+
+header{
+/* debug start */
+height: 300px;
+/* debug end */
+width: 40%;
+margin: 0 auto;
+}
+.img-head {
+  /* debug start */
+  background-color: lightgreen;
+  height:220px;
+  /* debug end */
+  border: 8px solid white;
+}
+nav{
+  /* debug start */
+  background-color: grey;
+  height: 80px;
+}
